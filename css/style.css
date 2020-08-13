@@ -71,9 +71,11 @@ body {
 
 .header-container-wrapper a {
 	font-weight: bold;
-	font-size: 14px; 
+	font-size: 14px;
+	line-height: 24px; 
 	text-decoration: none;
-	padding: 45px 20px;
+	padding: 38px 35px 27px;
+	line-height: 24px;
 	letter-spacing: 0.49px;
 	text-transform: uppercase;
 	color: #E0E0E0;
@@ -95,7 +97,7 @@ main {
 	justify-content: space-between;
 	max-width: 1249px;
 	padding-top: 102px; 
-	padding-bottom: 123px;
+	padding-bottom: 73px;
 	margin: 0 auto;	
 }
 
@@ -109,15 +111,17 @@ main {
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 	color: #000000;
-	margin-bottom: 36.5px;
+	margin-top: -14px;
+	margin-bottom: 18.5px;
 }
 .content-text {
-	max-width: 400px;
+	max-width: 559px;
 	font-weight: normal;
 	font-size: 15.9953px;
 	line-height: 28px;
+	letter-spacing: 1.07px;
 	color: #000000;
-	margin-bottom: 43.68px;
+	margin-bottom: 57.68px;
 }
 .button-contact-us {
 	display: flex;
@@ -164,7 +168,8 @@ main {
 	font-size: 42.1902px;
 	line-height: 55px;
 	max-width: 523px;
-	margin-bottom: 50.5px;
+	margin-top: -12px;
+	margin-bottom: 32.5px;
 }
 
 .services_main_text {
@@ -172,7 +177,7 @@ main {
 	font-size: 16px;
 	line-height: 28px;
 	max-width: 539px;
-	margin-bottom: 64px;
+	margin-bottom: 86px;
 }
 
 .learnmore_button {
@@ -180,8 +185,8 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	width: 227px;
-	height: 55px;
+	width: 224px;
+	height: 52px;
 	outline-color: #FF0000;
 	outline-style: dashed;
 	outline-width: 2px;
@@ -227,6 +232,7 @@ main {
 }
 
 .hr_services_tools {
+	margin-top: 113px;
 	width:100%;
 	color:#ECECEC;
 }
@@ -238,7 +244,7 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto 100px;	
+	margin: 0 auto 114px;	
 	max-width: 1249px;
 }
 
@@ -249,7 +255,7 @@ main {
 }
 
 .feature-products_header {
-	margin-bottom: 28.5px;
+	margin-bottom: 5.5px;
 	font-weight: bold;
 	font-size: 41.9876px;
 	letter-spacing: 0.3834px;
@@ -272,7 +278,7 @@ main {
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-bottom: 35px
+	margin-bottom: 50px
 }
 
 .nav_panel_pr a {
@@ -303,7 +309,7 @@ main {
 
 .team_block {
 	max-width: 1249px;
-	margin: 0 auto 30px;
+	margin: 0 auto;
 	display:flex;
 	flex-direction: column;
 	justify-content: center;	
@@ -318,7 +324,8 @@ main {
 	font-weight: bold;
 	font-size: 41.9876px;
 	letter-spacing: 0.3834px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	margin-bottom: 21px;	
 }
 
 .our_team p {
@@ -326,7 +333,7 @@ main {
 	font-weight: normal;
 	font-size: 15.9953px;
 	line-height: 28px;
-	margin-bottom: 37.5px;	
+	margin-bottom: 56.5px;	
 }
 
 .our_team hr {
@@ -337,14 +344,14 @@ main {
 }
 
 .person {
-	margin: 45px 15px 100px;
+	margin: 66px -2px 104px;
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .profile img{
 	width: 324px;
-	height: 500px;
+	height: 460px;
 }
 
 .profile_info {
@@ -357,7 +364,8 @@ main {
 	font-weight: 600;
 	font-size: 30.127px;
 	text-transform: uppercase;
-	margin-bottom: 30px;
+	margin-bottom: 19px;
+	margin-top: 12px;
 }
 
 .profile_info p {
@@ -365,11 +373,11 @@ main {
 	font-size: 15.9953px;
 	line-height: 28px;
 	max-width: 663px;
-	margin-bottom: 46.5px;
+	margin-bottom: 40.5px;
 }
 
 .nav_panel_profile {
-	margin-bottom: 108px;
+	margin-bottom: 59px;
 }
 
 
@@ -392,6 +400,7 @@ main {
 
 .nav_panel_profile_im a{
 	width: 23%;
+	height: 215px;
 }
 
 .nav_panel_profile_im > a > img{
@@ -410,14 +419,14 @@ main {
 }
 
 .subscription_head {
-	margin-top: 149px;
+	margin-top: 162px;
 	max-width: 1129px;
 	font-weight: bold;
 	font-size: 42px;
 	line-height: 24px;
 	letter-spacing: 1.05px;
 	color: #FFFFFF;
-	margin-bottom: 16.5px;
+	margin-bottom: 24.5px;
 }
 
 .subscription_text {
@@ -432,7 +441,7 @@ main {
 	display:flex;
 	justify-content: space-between;
 	max-width: 760px;
-	margin-bottom: 139px;
+	margin-bottom: 137px;
 }
 
 .subscription_two_blocks input{
@@ -473,7 +482,7 @@ main {
 	text-align: left;
 	max-width: 1249px;
 	width: 100%;
-	margin: 0px auto 73px;
+	margin: -5px auto 72px;
 }
 .connection_block_info p{
 	max-width: 752.85px;
@@ -483,7 +492,8 @@ main {
 	font-weight: bold;
 	font-size: 41.9876px;
 	letter-spacing: 0.3834px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	margin-bottom: 31px;
 }
 
 .connection_text {
@@ -491,7 +501,7 @@ main {
 	font-weight: normal;
 	font-size: 15.9953px;
 	line-height: 28px;
-	margin-bottom: 37.5px;	
+	margin-bottom: 49.5px;	
 }
 
 .connection_hr {
@@ -525,7 +535,7 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-bottom: 43px;
+	margin-bottom: 35px;
 	padding: 0px;
 }
 
@@ -558,12 +568,12 @@ main {
 	line-height: 28px;
 	display: flex;
 	align-items: center;
-	margin-bottom: 43px;
+	margin-bottom: 39px;
 	border-width: 0px;
 }
 
 .connection_block_your_info button {
-	padding: 24.3px 0px 26.6px 0px;
+	padding: 17.3px 0px 17.6px 0px;
 	width: 100%;
 	max-width: 734px;
 	background: #FF3B3B;
@@ -608,7 +618,7 @@ main {
 	padding-bottom: 20px;
 }
 .contact_info .phone {
-	padding-bottom: 145px;
+	padding-bottom: 119px;
 }
 
 
@@ -645,7 +655,7 @@ footer p {
 
 /*MEDIA*/
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1260px) {
 	.main-body {
 		display: flex;
 		flex-direction: column;
@@ -656,12 +666,14 @@ footer p {
 	.main-content {
 		width: 80%;
 		margin-bottom: 10px;
+		padding: 0 5px;
 		flex-grow: 1;
 	}
 
 	.main-page-image {
 		width: 80%;
 		height: 80%;
+		padding: 0 5px;
 	}
 
 	.services {
@@ -697,11 +709,20 @@ footer p {
 		margin: 0 auto;
 	}
 	.person {
+		display: flex;
+		flex-direction: column;
+		align-items: center;		
 		justify-content: center;
 	}
 
 	.subscription_head {
 		line-height: 40px;
+	}
+	
+	.connection_block_info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.connection_block_two_inner_blocks {
@@ -715,8 +736,43 @@ footer p {
 		padding: 0px;
 		margin-bottom: 50px;
 	}
-
+	.connection_block_your_info button{
+		margin-bottom: 50px;
+	}
 	.contact_info {
 		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 725px) {
+
+	.subscription_two_blocks {
+		width: 100%;
+	    display: flex;
+   		flex-direction: column;
+   		align-items: center;
+	}
+	.subscription_two_blocks input {
+		margin-bottom: 15px;
+		max-width:250px;
+	}
+	.name_mail {
+		width: 100%;
+	    display: flex;
+   		flex-direction: column;
+   		align-items: center;
+	}
+
+	.name_mail input{
+		max-width: 350px;
+		margin-bottom: 35px;
+	}
+
+	.connection_block_your_info > input {
+		max-width: 350px;
+		margin: 35px 50px;
+	}
+	.connection_block_your_info button {
+		max-width: 350px;
 	}
 }
